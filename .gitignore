@@ -1,0 +1,4 @@
+**/build
+*.lock
+.idea
+.gradle

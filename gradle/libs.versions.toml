@@ -1,0 +1,11 @@
+[versions]
+kotlin="1.5.30"
+arrow-meta="1.5.10-SNAPSHOT"
+#arrow-meta="0.13.2"
+
+#[plugins]
+#kotlin = { id = "", version.ref = "kotlin" }
+
+[libraries]
+kotlin-compiler = { module = "org.jetbrains.kotlin:kotlin-compiler-embeddable", version.ref="kotlin" }
+arrow-meta = { module = "io.arrow-kt:arrow-meta" , version.ref="arrow-meta" }
